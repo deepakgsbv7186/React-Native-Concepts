@@ -1,6 +1,6 @@
 import React from 'react';
 import navigationstrings from '../navigationstrings';
-import {ModalConcept} from '../../screens';
+import {ColorPicker, ModalConcept} from '../../screens';
 
 export default function (Stack) {
   return (
@@ -9,6 +9,10 @@ export default function (Stack) {
         name={navigationstrings.MODALCONCEPT}
         component={ModalConcept}
         // options={{headerShown: true}}
+      />
+      <Stack.Screen
+        name={navigationstrings.COLORPICKER}
+        component={ColorPicker}
       />
     </>
   );

@@ -20,7 +20,7 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName={navigationstrings.MODALCONCEPT}
+        initialRouteName={navigationstrings.SHOWWEBVIEW}
         screenOptions={{headerShown: false}}>
         {AuthStack(Stack)}
         {MainStack(Stack)}

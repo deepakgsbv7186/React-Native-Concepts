@@ -42,7 +42,9 @@ export default {
 
   // Ui Concepts
   MODALCONCEPT: 'modalconcept',
+  COLORPICKER: 'colorpicker',
 
   // Build Components
   SELECTCOUNTRY: 'selectcountry',
+  SHOWWEBVIEW: 'showwebview',
 };

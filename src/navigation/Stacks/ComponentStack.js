@@ -1,4 +1,4 @@
-import {SelectCountry} from '../../screens';
+import {SelectCountry, ShowWebView} from '../../screens';
 import navigationstrings from '../navigationstrings';
 
 export default function (Stack) {
@@ -7,6 +7,10 @@ export default function (Stack) {
       <Stack.Screen
         name={navigationstrings.SELECTCOUNTRY}
         component={SelectCountry}
+      />
+      <Stack.Screen
+        name={navigationstrings.SHOWWEBVIEW}
+        component={ShowWebView}
       />
     </>
   );

@@ -47,6 +47,8 @@ export {default as UserKyc} from './LearnAPI/ApiTest/KYC/UserKyc';
 
 // Ui Concepts
 export {default as ModalConcept} from './UiConcepts/Modal';
+export {default as ColorPicker} from './UiConcepts/ColorPicker';
 
 // Build Components
 export {default as SelectCountry} from './BuildComponents/Dropdown/SelectCountry';
+export {default as ShowWebView} from './BuildComponents/WebView';
